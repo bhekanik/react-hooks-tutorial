@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  color: #333;
+  padding: 2rem;
+  width: 30vw;
+  min-width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container input {
+  font-size: 32px;
+  max-width: 90%;
+  margin-bottom: 1rem;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter p {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.counter button {
+  padding: 1rem 2rem;
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
